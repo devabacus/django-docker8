@@ -1,0 +1,8 @@
+version: '3.11'
+
+services:
+  django:
+    image: touristhelper2:0.0.2
+    build: .
+    ports:
+      - "8301:8301"
